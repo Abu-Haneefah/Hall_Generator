@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(106, 173, 106);
+    text-align: center;
+}
+p{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: monospace;
+    color: crimson;
+    visibility: hidden;
+}
+h1{
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 20px;
+    color: rgb(122, 50, 50);
+}
+h3{
+    font-size: large;
+    margin-bottom: 3%;
+}
+input{
+    width: 50%;
+    display: inline-block;
+   padding-left: 2%;
+   height: 40px;
+}
+#form{
+    padding: 10%;
+}
+.btn{
+    margin-left: 3%;
+    display: block;
+    position: relative;
+    left: 35%;
+    margin-top: 2%;
+    width: 20%;
+}
+/* MEDIA QUERY */
+@media ( min-width: 320px) and (max-width: 500px) {
+   input{
+    width: 80%;
+    margin-bottom: 20px;
+   }
+   .btn{
+    position: relative;
+    left: 28%;
+    width: 40%;
+    
+   }
+}
